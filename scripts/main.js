@@ -11,16 +11,18 @@ xmlhttp.open("GET", url, true);
 xmlhttp.send();
 
 function myFunction(arr) {
-    console.log(arr["0"].data.item.name);
+    console.log(arr.data);
 
-    var name = arr["0"].data.item.name;
+    // var name = arr[0].data.recommendation;
     var out = "";
     var i;
 
     for (i = 0; i < arr.length; i++) {
-           out +=   '<div></div>' +
-                    '<p>' + name + '</p>';
+        //    out += name;
+           console.log('args', arr[0].data.recommendation[i].name);
            
     }
-    document.getElementById("products").innerHTML = out;
+    // console.log('out', out);
+    
+    document.getElementById("js-title").append(out);
 }

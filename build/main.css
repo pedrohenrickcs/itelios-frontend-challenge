@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'robotocondensed_bold';
-  src: url("fonts/robotocondensed_bold.eot");
-  src: url("fonts/robotocondensed_bold.eot") format("embedded-opentype"), url("fonts/robotocondensed_bold.woff2") format("woff2"), url("fonts/robotocondensed_bold.woff") format("woff"), url("fonts/robotocondensed_bold.ttf") format("truetype"), url("fonts/robotocondensed_bold.svg#robotocondensed_bold") format("svg"); }
+  src: url("robotocondensed_bold.eot");
+  src: url("robotocondensed_bold.eot") format("embedded-opentype"), url("robotocondensed_bold.woff2") format("woff2"), url("robotocondensed_bold.woff") format("woff"), url("robotocondensed_bold.ttf") format("truetype"), url("robotocondensed_bold.svg#robotocondensed_bold") format("svg"); }
 
 @font-face {
   font-family: 'robotocondensed_regular';
-  src: url("fonts/robotocondensed_regular.eot");
-  src: url("fonts/robotocondensed_regular.eot") format("embedded-opentype"), url("fonts/robotocondensed_regular.woff2") format("woff2"), url("fonts/robotocondensed_regular.woff") format("woff"), url("fonts/robotocondensed_regular.ttf") format("truetype"), url("fonts/robotocondensed_regular.svg#robotocondensed_regular") format("svg"); }
+  src: url("robotocondensed_regular.eot");
+  src: url("robotocondensed_regular.eot") format("embedded-opentype"), url("robotocondensed_regular.woff2") format("woff2"), url("robotocondensed_regular.woff") format("woff"), url("robotocondensed_regular.ttf") format("truetype"), url("robotocondensed_regular.svg#robotocondensed_regular") format("svg"); }
 
 body {
   font-family: 'robotocondensed_regular'; }
