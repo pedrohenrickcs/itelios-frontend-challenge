@@ -1,0 +1,20 @@
+body {
+  font-family: 'robotocondensed_regular';
+  font-size: 16px;
+  line-height: normal; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 .5rem;
+  width: 95%;
+  max-width: 1235px; }
+
+h1,
+h2 {
+  color: #5e6774;
+  font-size: 29px; }
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%; }

@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+@import 'general';
+
+// BUTTON
+.box {
+    display: flex;
+    &__btnBuy {
+        border: 1px $border-color solid;
+        cursor: pointer;
+        display: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 27px;
+        padding: 16px;
+        width: auto;
+        transition: .3s ease;
+        svg {
+            font-size: 20px;
+            margin-left: 12px;
+            transition: .3s ease;
+            vertical-align: middle;
+        }
+        &:hover {
+            border-left: 10px $detail-color solid;
+            transition: .3s ease;
+            svg {
+                fill: $detail-color;
+            }
+        }
+    }
+}

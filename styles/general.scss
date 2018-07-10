@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+// VARIABLES
+$primary-color: #edeaea;
+$second-color: #5e6774;
+$border-color: #d4d2d2;
+$detail-color: #ff6600;
+$font-color: #353f4f;
+
+body {
+    font-family: 'robotocondensed_regular';
+    font-size: 16px;
+    line-height: normal;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 .5rem;
+    width: 95%;
+    max-width: 1235px;
+}
+
+h1,
+h2 {
+    color: $second-color;
+    font-size: 29px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}

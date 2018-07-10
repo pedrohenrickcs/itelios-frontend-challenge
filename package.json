@@ -6,5 +6,10 @@
     "gulp-uglify": "latest",
     "gulp-concat": "latest",
     "gulp-connect": "latest"
+  },
+  "dependencies": {
+    "es6": "0.0.7",
+    "node-es6": "^0.3.1",
+    "slick-carousel": "^1.8.1"
   }
 }
