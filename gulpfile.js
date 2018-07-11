@@ -7,8 +7,8 @@ var gulp = require('gulp'),
 
 var jsSources = ['scripts/*.js'],
 	sassSources = ['styles/*.scss'],
-	htmlSources = ['**/*.html'],
 	fontsSources = ['src/fonts/*'],
+	htmlSources = ['**/*.html'],
 	outputDir = 'build';
 
 gulp.task('copy', function () {
@@ -34,6 +34,11 @@ gulp.task('js', function () {
 		.pipe(connect.reload())
 });
 
+gulp.task('fonts', function () {
+	gulp.src(fontsSources)
+		.pipe(gulp.dest(outputDir));
+});
+
 gulp.task('watch', function () {
 	gulp.watch(jsSources, ['js']);
 	gulp.watch(fontsSources, ['fonts']);
@@ -51,11 +56,6 @@ gulp.task('connect', function () {
 gulp.task('html', function () {
 	gulp.src(htmlSources)
 		.pipe(connect.reload())
-});
-
-gulp.task('fonts', function () {
-	return gulp.src(fontsSources)
-		.pipe(gulp.dest(outputDir));
 });
 
 gulp.task('default', ['html', 'js', 'sass', 'fonts', 'connect', 'watch']);
