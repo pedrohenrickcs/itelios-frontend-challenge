@@ -1,0 +1,39 @@
+// Style Slick
+.slick-dots {
+    bottom: 34%;
+    display: flex;
+    left: 50%;
+    position: fixed;
+    z-index: -1;
+    @media screen and (max-width: 640px) {
+        left: 18%;
+    }
+    button {
+        outline: none;
+        width: 15px;
+        height: 15px;
+    }
+    .slick-active {
+        button {
+            background: #353f4f;
+            color: #353f4f;
+            outline: none;
+            width: 15px;
+            height: 15px;
+        }
+    }
+    li {
+        list-style: none;
+        margin-left: 8px;
+    }
+    button {
+        background: #adadad;
+        border-color: #adadad;
+        color: #adadad;
+        border-radius: 50%;
+        border-style: none;
+        &:active {
+            border-style: none;
+        }
+    }
+}

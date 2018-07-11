@@ -1,0 +1,30 @@
+.slick-dots {
+  bottom: 34%;
+  display: flex;
+  left: 50%;
+  position: fixed;
+  z-index: -1; }
+  @media screen and (max-width: 640px) {
+    .slick-dots {
+      left: 18%; } }
+  .slick-dots button {
+    outline: none;
+    width: 15px;
+    height: 15px; }
+  .slick-dots .slick-active button {
+    background: #353f4f;
+    color: #353f4f;
+    outline: none;
+    width: 15px;
+    height: 15px; }
+  .slick-dots li {
+    list-style: none;
+    margin-left: 8px; }
+  .slick-dots button {
+    background: #adadad;
+    border-color: #adadad;
+    color: #adadad;
+    border-radius: 50%;
+    border-style: none; }
+    .slick-dots button:active {
+      border-style: none; }

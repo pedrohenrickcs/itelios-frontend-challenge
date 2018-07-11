@@ -2,6 +2,12 @@
 
 @import 'general';
 
+// TITLE
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
 // BUTTON
 .box {
     display: flex;

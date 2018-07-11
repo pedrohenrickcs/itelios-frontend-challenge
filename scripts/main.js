@@ -74,8 +74,7 @@ function productsRecomendation(myArr) {
     });
 }
 
-
-// trecho feito com JQUERY >> Adicionando botão de comprar no hover / montando slider de prateleira com slick
+// stretch made with JQUERY >> Add button to buy no hover / riding slider shelf with slick
 $(window).on('load', function () {
     $('#recomended .recomended__products, #visited .visited__products').mouseover(function () {
         var txt = $(this).find('.js-btn');
