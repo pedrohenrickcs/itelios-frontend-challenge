@@ -9,7 +9,7 @@ e depois:
 ```ssh
 $ gulp
 ```
-que os arquivos serão gerados dentro da pasta buil do projeto, já minificados, na porta http://localhost:8080/.
+Os arquivos serão gerados dentro da pasta buil do projeto, já minificados, na porta http://localhost:8080/.
 
 ## Metodologias utilizadas
 
