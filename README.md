@@ -18,6 +18,6 @@ No JS, foi utilizado Javascript Puro. Apenas no Slider que foi utilizado a bibli
 
 - O tempo gasto para a criação da prateleira foram de mais ou menos 11 horas.
 
-OBS: deixei uma imagem Default, pois não as que estão no JSON estão dando erro.
+OBS: deixei uma imagem Default, pois as que estão no JSON estão dando erro.
 
-Bom, acho que é isso.
+Bom, acho que é isso :)
